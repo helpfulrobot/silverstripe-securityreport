@@ -7,15 +7,16 @@
  * @package securityreport
  * @subpackage subsites
  */
-class SubsiteSecurityReport extends Extension {
+class SubsiteSecurityReport extends Extension
+{
 
-	/**
-	 * Columns in the report
-	 * 
-	 * @var array
-	 * @config
-	 */
-	private static $columns = array(
-		'SubsiteDescription' => 'Subsites (edit permissions)'
-	);	
+    /**
+     * Columns in the report
+     * 
+     * @var array
+     * @config
+     */
+    private static $columns = array(
+        'SubsiteDescription' => 'Subsites (edit permissions)'
+    );
 }
